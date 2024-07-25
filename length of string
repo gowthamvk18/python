@@ -1,0 +1,2 @@
+a="gowtham"
+print(len(a))
