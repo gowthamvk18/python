@@ -1,0 +1,25 @@
+string="143"
+integer=int(string)
+print(string)
+
+my_list=[1,2,3,4,5,5,6]
+unq_list=list(set(my_list))
+print(unq_list)
+
+num=[1,2,3,4,5,6]
+average=sum(num)/len(num)
+print(average)
+
+def perfect(n):
+    if n<0:
+        return false
+    sqrt=int(n**0.5)
+    return sqrt*sqrt==n
+print(perfect(25))
+
+num=[1,2,3,4,5,6,7,8]
+sum=0
+for n in num:
+    if n%2==0:
+        sum+=n
+print(sum)
